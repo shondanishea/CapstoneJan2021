@@ -18,3 +18,5 @@ const form = document.getElementById("my-form");
       });
     }
     form.addEventListener("submit", handleSubmit)
+
+    module.export = router;
