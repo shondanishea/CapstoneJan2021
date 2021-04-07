@@ -3,4 +3,5 @@ export default [
   { title: "Credit",text: "Credit"},
   { title: "Budget", text: "Budget"},
   { title: "Couponing", text: "Couponing"},
+  { title: "Contact", text: "Contact"},
 ];

@@ -16,9 +16,9 @@ body {
   }
 }
 header {
-  background-image: url(https://trello-attachments.s3.amazonaws.com/601c9de4e70dfd71ecd86545/6022d8763cabcd8163972e20/a5d85fd2d2b301182e101f107d0cda89/pexels-bich-tran-732444.jpg);
-  background-size: cover;
-  height: 50vh;
+  background-image: url(https://d28g7970w5bq8z.cloudfront.net/p/articles/2017/ai-237328-aux-head-20170111_doalr5_t.jpg);
+  background-size: 100rem;
+  height: 350px;
 }
 
 header > a {
@@ -43,7 +43,101 @@ main {
   align-items: stretch;
   text-align: match-parent;
 }
+
 footer {
   text-align: center;
   justify-content: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+#budget > .jumbotron{
+  margin: 15px 30px 0px 30px;
+  border-radius: 10px;
+  background: url(https://factly.in/wp-content/uploads/2021/01/preparation-of-Union-Budget_Featured-Image-702x336.jpg);
+  background-repeat: repeat;
+  height: 350px;
+}
+
+#budget > h1 {
+  text-align: center;
+}
+
+#Contact {
+  box-sizing: border-box;
+}
+
+#Contact > input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#Contact > input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#Contact > input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#Contact > .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+#Contact > .column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+#Contact > .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }

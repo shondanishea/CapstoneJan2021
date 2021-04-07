@@ -22,8 +22,11 @@
     "stylelint-vscode": "^7.0.0-6"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
     "html-literal": "^1.1.0",
     "lodash": "^4.17.21",
+    "mongoose": "^5.12.3",
     "navigo": "^8.10.1",
     "node": "^15.3.0",
     "parcel-bundler": "^1.12.3"
