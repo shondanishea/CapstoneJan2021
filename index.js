@@ -48,11 +48,10 @@ function addNavEventListeners() {
       event.preventDefault();
       render(state[event.target.title]);
     })
-  );
+  )};
 
 document
     .querySelector(".fa-bars")
-    .addEventListener("click", () =>
-      document.querySelector("nav > ul").classList.toggle("hidden--mobile")
-    );
-
+    .addEventListener("click", () => {
+    document.querySelector("nav > ul").classList.toggle("hidden--mobile")
+  });
