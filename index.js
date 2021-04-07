@@ -13,7 +13,7 @@ router.hooks({
       params && Object.prototype.hasOwnProperty.call(params, "page")
         ? capitalize(params.page)
         : "Home";
-    fetchDataByView(state[page]);
+   // fetchDataByView(state[page]);
     done();
   }
 });
