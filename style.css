@@ -16,9 +16,9 @@ body {
   }
 }
 header {
-  background-image: url(https://d28g7970w5bq8z.cloudfront.net/p/articles/2017/ai-237328-aux-head-20170111_doalr5_t.jpg);
-  background-size: 100rem;
-  height: 350px;
+  background-image: url(https://farm9.staticflickr.com/8152/7460432496_10aaff5ee0_o_d.png);
+  background-size: 75rem;
+  height: 400px;
 }
 
 header > a {
@@ -79,18 +79,6 @@ li a:hover {
   background-color: #4CAF50;
 }
 
-#budget > .jumbotron{
-  margin: 15px 30px 0px 30px;
-  border-radius: 10px;
-  background: url(https://factly.in/wp-content/uploads/2021/01/preparation-of-Union-Budget_Featured-Image-702x336.jpg);
-  background-repeat: repeat;
-  height: 350px;
-}
-
-#budget > h1 {
-  text-align: center;
-}
-
 #Contact {
   box-sizing: border-box;
 }
@@ -140,4 +128,149 @@ li a:hover {
     width: 100%;
     margin-top: 0;
   }
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "General";
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+.container {
+  min-height: 80vh;
+}
+.header {
+  height: 60px;
+  width: 100%;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  font-family: "heading";
+  padding-top: 10px;
+}
+.budget-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 160px;
+  font-weight: 900;
+}
+.budget-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: 70px;
+  font-size: 20px;
+}
+.exp-amount {
+  color: #b80c09;
+}
+.amount {
+  color: #317b22;
+}
+.col {
+  width: 40%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.col p {
+  font-size: 40px;
+  padding-top: 5px;
+  margin: 0;
+}
+/* modal form */
+.budget-form {
+  width: 100%;
+  min-height: 200px;
+}
+form {
+  margin: 10px 0 20px 10px;
+  min-height: 100px;
+}
+input {
+  width: 60%;
+  padding: 8px 0;
+  border-radius: 6px;
+  border: 1px solid gray;
+  margin: 20px 0;
+  padding-left: 5px;
+  color: #495057;
+}
+.budget-list .exp p {
+  color: #b80c09;
+  font-size: 18px;
+}
+#displayExpenses {
+  width: 100%;
+  display: none;
+}
+.expValue {
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+#expTitleName {
+  width: 40%;
+}
+#expValueAmount {
+  width: 40%;
+}
+#edit_delete {
+  width: 40%;
+}
+#edit_delete img {
+  cursor: pointer;
+}
+#edit_delete button {
+  margin-left: 1px;
+  background: none;
+  border: none;
+}
+#budget-form button {
+  background: rgb(1, 83, 1);
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 10px 40px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#expense-form {
+  width: 100%;
+  display: none;
+}
+#editForm {
+  display: none;
+  width: 100%;
+}
+#editForm button {
+  background: #b80c09;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 10px 30px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+}
+#expense-form button {
+  background: #b80c09;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 10px 30px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
 }

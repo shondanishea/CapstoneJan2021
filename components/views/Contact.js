@@ -21,8 +21,8 @@ export default (st) => html `
           <option value="canada">Canada</option>
           <option value="usa">USA</option>
         </select>
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <label for="subject">Request More Information</label>
+        <textarea id="subject" name="subject" placeholder="Write Email and information need.." style="height:170px"></textarea>
         <input type="submit" value="Submit">
       </form>
     </div>
