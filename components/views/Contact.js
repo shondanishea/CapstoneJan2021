@@ -10,7 +10,7 @@ export default (st) => html `
     <div class="column">
     </div>
     <div class="column">
-      <form action="https://formspree.io/f/xoqpzowr" method= "POST">
+      <form id="my-form" action="https://formspree.io/f/xoqpzowr" method= "POST">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
         <label for="lname">Last Name</label>
@@ -23,7 +23,8 @@ export default (st) => html `
         </select>
         <label for="subject">Request More Information</label>
         <textarea id="subject" name="subject" placeholder="Write Email and information need.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" target="_blank">
+        <h1 id="my-form-status"></h1>
       </form>
     </div>
   </div>

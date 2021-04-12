@@ -1,4 +1,5 @@
 import html from "html-literal";
+
 export default (st) => html `
 
 
@@ -9,7 +10,7 @@ export default (st) => html `
       <div class="budget-section">
         <div class="budget col col-md col-sm">
           <h2>budget</h2>
-          <img src="https://ghh-trikrollc.netdna-ssl.com/wp-content/uploads/2015/07/money-bag-tests-cost-money-to-run.png" width="40" alt="" />
+          <img src="https://ghh-trikrollc.netdna-ssl.com/wp-content/uploads/2015/07/money-bag-tests-cost-money-to-run.png" width="40"  alt= "moneyBag"/>
           <p class="amount">$ <span id="budgetAmount">0</span></p>
         </div>
         <div class="expenses col col-md col-sm">
