@@ -8,7 +8,7 @@ export default (st) => html`
 <div class="row">
 <div class="column">
   <h2>Check your credit report regularly</h2>
-  <p id="rcorners1"> When you comb through your credit reports, highlight your collections:those charged of accounts,those negative closed accounts,those repossession's, evictions, medical bill,etc.
+  <p id="rcorners1"> When you comb through your credit reports, highlight your collections: the charged off accounts, the negative closed accounts, the repossession's, evictions, medical bill, etc.
   </p>
 </div>
 
