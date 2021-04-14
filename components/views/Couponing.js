@@ -10,7 +10,7 @@ export default (st) => html `
   <p>Do your research to find the best deal on the items that you are look to purchase. A site you can use to find great deals is
 <a href="https://thekrazycouponlady.com"> The Krazy Coupon Lady Website </a> there you will find many current and interesting deals.
 </p>
-<p>A few of my favorite stores with good deals and sales that accept coupons are <a href="https://www.target.com/">Target</a>, <a href="https://www.walmart.com/">Walmart</a>, and <a href="https://www.familydollar.com/">Family Dollar</a> . </p>
+<p>A few of my favorite stores with good deals and sales that accept coupons are <a href="https://www.target.com/">Target</a> , <a href="https://www.walmart.com/">Walmart</a> , and <a href="https://www.familydollar.com/">Family Dollar</a> . </p>
 </div>
 </main>
 `;
