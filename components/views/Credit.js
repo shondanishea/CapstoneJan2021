@@ -14,12 +14,12 @@ export default (st) => html`
 
 <div class="column">
 <h2>Check of Errors</h2>
-<p id="rcorners1">Credit repair is all about disputing inaccurate, incomplete, and unverifiable information- which is why debt validation is such an important step. This is important because you want to ensure that all of the data that has been reported is accurate. Also check of errors in address and employment history, if incorrect have them removed. </p>
+<p id="rcorners1">Credit repair is all about disputing inaccurate, incomplete, and unverifiable information- which is why debt validation is such an important step. This is important because you want to ensure that all of the data that has been reported is accurate. Also check for errors in address and employment history, if incorrect have them removed. </p>
 </div>
 
 <div class="column">
 <h2>Rebuild your credit</h2>
-<p id="rcorners1">Pay bills on time. Lower your utilization of your credit card to less than 10%. Payoff an outstanding balances. Pay your credit card bill before your statement is due. Do not close any current credit card accounts. The best credit card for rebuilding your credit is a secured credit card. The most important thing about rebuilding your credit is being committed to change. Bad habits must be changed in order to rebuild your credit. </p>
+<p id="rcorners1">Pay bills on time. Lower your utilization of your credit card to less than 10%. Payoff any outstanding balances. Pay your credit card bill before your statement is due. Do not close any current credit card accounts. The best credit card for rebuilding your credit is a secured credit card. The most important thing about rebuilding your credit is being committed to change. Bad habits must be changed in order to rebuild your credit. </p>
 </div>
 </section>
 `;
