@@ -3,7 +3,6 @@
     display: none;
   }
 }
-
 @media (max-width: 550px) {
   .hidden--mobile {
     display: none;
@@ -138,8 +137,8 @@ li a:hover {
     margin-top: 0;
   }
 }
-. {
-  background-color: #0eb662;
+body {
+  background-color: #ace0a3;
 }
 #contact.container {
   min-height: 80vh;
